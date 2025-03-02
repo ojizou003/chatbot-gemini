@@ -38,7 +38,9 @@ def main():
             st.rerun()
 
     st.title("ばってん荒熊 🐻")
-    st.caption("なんでっちゃ話しかけてはいよ！")
+    st.write("ばってん荒熊は、あんたのパートナーばい  \nなんでっちゃ話しかけてはいよ！")
+    st.caption("会話のリセットはサイドバーから")
+
 
     # セッション状態の初期化
     initialize_session_state()
